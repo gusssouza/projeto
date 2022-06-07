@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+background: linear-gradient(236.85deg, #494C51 27.26%, #B2B7C2 96.03%);
+font-family: 'Roboto', sans-serif;
+}
+
+
+  .containerNav {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+  .nav {
+  background: linear-gradient(236.85deg, #B2B7C2 27.26%, #E5E9F1   96.03%);
+  text-align: center;
+  font-size: 25px;
+  padding: 7px;
+  border: 2px outset black; 
+  width: 50%;  
+  border-radius: 20px; 
+  box-shadow: 6px 6px 6px #2e3033;
+
+}
+  .navA {
+  text-decoration: none;
+  color: black;
+}
+
+ .container {
+  background: #EFF3FC;
+  color: #1C1C1C;
+  margin: 64px;
+  border-radius: 20px;
+  box-shadow: 6px 6px 6px #0E1D2F;
+  padding: 64px;
+}
+
+.perfil {
+  display: flex;
+  align-items: center;
+}
+
+.fotoPerfil {
+  border-radius: 460px;
+  max-height:160px;
+  max-width:160px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.titulo {
+  margin-left: 16px;
+}
+
+.titulo h1 {
+  font-weight: 700;
+  font-size: 36px;
+  }
+
+.titulo h3 {
+  font-weight: 400;
+  font-size: 24px;
+  margin-left: 3px;
+  }
+
+
+.projetos {
+background: linear-gradient(236.85deg, #B2B7C2 27.26%, #E5E9F1   96.03%);
+font-family: 'Roboto', sans-serif;
+display: flex;
+flex-direction: column;
+margin-top:60px;
+margin-bottom:200px;
+border-radius: 20px;
+box-shadow: 6px 6px 6px #494C51;
+padding:30px;
+}
+
+ul {
+  margin-top: 50px;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+li {
+  list-style: none;
+  font-weight: 400;
+  margin-bottom:20px;
+  color: #1C1C1C;
+  margin-left: -40px;
+
+  }
+
+li a {
+  color: #1C1C1C;
+  text-decoration: none;
+}
+
+.redesSocais{
+  display: flex;
+  text-align: center;
+  font-size: 300px;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+.imgRede{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+footer {
+  text-align: center;
+  background: #EFF3FC;
+  color: #1C1C1C;
+  margin: 64px;
+  border-radius: 20px;
+  box-shadow: 6px 6px 6px #0E1D2F;
+  padding: 30px;
+}
