@@ -138,7 +138,6 @@ footer {
   overflow: hidden;
   background-color: #333;
   border-radius: 20px;
-
 }
 
 .lista {
@@ -157,3 +156,76 @@ footer {
 .lista:hover, .navA:hover {
   background-color: #111;
 } 
+
+
+
+.imgJogos {
+margin-left: 200px;
+width: 700px;
+margin-bottom: 25px;
+box-shadow: 6px 6px 6px #0E1D2F;
+
+}
+
+
+.mainJogos{
+
+  background: linear-gradient(236.85deg, #B2B7C2 27.26%, #E5E9F1   96.03%);
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-direction: column;
+  margin-top:60px;
+  margin-bottom:200px;
+  border-radius: 20px;
+  box-shadow: 6px 6px 6px #494C51;
+  padding:30px;
+}
+
+.liJogos{
+  margin-top: 50px;
+  list-style: none;
+  font-weight: 400;
+  margin-bottom:20px;
+  color: #1C1C1C;
+  margin-left: -40px;
+  font-size: 15px
+}
+
+.spanJogos {
+  display: flex;
+  margin-top: 60px;
+}
+
+
+.r6 {
+  margin-left: 20px;
+  text-shadow: 6px 3px 5px #494c51b6;
+  padding: 5px;
+}
+
+.textoJogos {
+font-size: 20px;
+width: 500px;
+height: 330px;
+padding-top: 60px;
+padding-left: 30px;
+
+}
+
+.tituloJogos {
+  margin-left: 200px;
+}
+
+
+.headerJogos {
+  background: linear-gradient(236.85deg, #B2B7C2 27.26%, #E5E9F1   96.03%);
+  border-radius: 20px;
+  padding: 10px;
+  box-shadow: 6px 6px 6px #0e1d2fa4;
+}
+
+.tituloJogosFavoritos{
+padding-top: 50px;
+font-size: 40px;
+margin-left: 35%;
+}
