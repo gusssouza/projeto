@@ -5,7 +5,6 @@ background: linear-gradient(236.85deg, #494C51 27.26%, #B2B7C2 96.03%);
 font-family: 'Roboto', sans-serif;
 }
 
-
  .container {
   background: #EFF3FC;
   color: #1C1C1C;
@@ -108,7 +107,6 @@ footer {
   box-shadow: 6px 6px 6px #0E1D2F;
 }
 
-
 .ul {
   list-style-type: none;
   margin: 0px;
@@ -137,7 +135,6 @@ footer {
   background-color: #111;
 } 
 
-
 .imgJogos {
 margin-left: 120px;
 width: 700px;
@@ -145,7 +142,6 @@ margin-bottom: 25px;
 box-shadow: 6px 6px 6px #0E1D2F;
 
 }
-
 
 .mainJogos{
 
@@ -159,8 +155,6 @@ box-shadow: 6px 6px 6px #0E1D2F;
   box-shadow: 6px 6px 6px #494C51;
   padding:30px;
 }
-
-
 
 @media screen and (max-width: 1000px){
   .imgJogos {
@@ -178,8 +172,6 @@ box-shadow: 6px 6px 6px #0E1D2F;
       text-align: center;
     }
     
-
-
     .r6 {
       margin-top: 0;
       font-size: 25px;
@@ -193,16 +185,12 @@ box-shadow: 6px 6px 6px #0E1D2F;
       height: 100px;
       padding-top: 0px;
       padding-left: 0px;
-      
-      }
+    }
 
-      .tituloJogos {
+    .tituloJogos {
         margin: 0px;
         text-align: center;
-      } 
-
-
-      
+    }     
   }
 
 .liJogos{
@@ -236,16 +224,12 @@ padding-left: 30px;
 
 }
 
-
-
 .headerJogos, .containerJogos {
   background: linear-gradient(236.85deg, #B2B7C2 27.26%, #E5E9F1   96.03%);
   border-radius: 20px;
   padding: 10px;
   box-shadow: 6px 6px 6px #0e1d2fa4;
 }
-
-
 
 .containerJogos{
   margin-bottom: 50px;
@@ -277,5 +261,5 @@ padding-right: 10px;
   border-radius: 20px;
   padding: 20px;
   margin-top: 40px;
-
+  box-shadow: 6px 6px 6px #494C51;
 }
