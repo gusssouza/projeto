@@ -65,7 +65,7 @@
 <script>
   let contato = document.getElementById("contato")
   contato.addEventListener("click", function() {
-  window.scrollBy(0, 4000)
+  window.scroll({top: window.innerHeight, behavior: "smooth"})
 })
 </script>
 

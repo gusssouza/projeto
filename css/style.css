@@ -115,6 +115,7 @@ footer {
   background-color: #333;
   border-radius: 20px;
   margin-left: 0px;
+  text-align: center;
 
 }
 
@@ -136,7 +137,8 @@ footer {
 } 
 
 .imgJogos {
-margin-left: 120px;
+margin-left: 230px;
+margin-right: 40px;
 width: 700px;
 margin-bottom: 25px;
 box-shadow: 6px 6px 6px #0E1D2F;
