@@ -13,65 +13,78 @@
         <li class="lista"><a class="navA" href="sobreMim.html">Sobre Mim</a></li>
         <li class="lista"><a class="navA" href="index.html">Projetos</a></li>
         <li class="lista"><a class="navA" href="hobbies.html">Hobbies</a></li>
+        <li class="lista" ><a class="navA" id="contato" onclick="teste()">Contato</a></li>
         </ul> 
     </div> 
 
 <div class="container">
-<main class="mainJogo">
 
+<main class="mainJogo">
     <header class="headerJogos"> 
-    <h1> Jogos </h1>
-    <h2> Eu gosto de jogos online desde que eu era criança, comecei jogando MMO'S RPG de navegador e após isso fui explorando diversos jogos diferentes</h2>
+    <h1 class="tituloJogosHeader">Jogos </h1>
+    <p class="pHeaderJogos"> Eu gosto de jogos online desde que eu era criança, comecei jogando MMO'S RPG de navegador e após isso fui explorando diversos jogos diferentes, onde fiz muitos amigos e que após muitos anos me fez tomar interesse por programação.</p>
 </header>
 
-
+    <div class="teste">
     <h1 class="tituloJogosFavoritos"> Meus jogos favoritos</h1>
-
-
-
+    
     <ul>
+
+        <div class="containerJogos">
         <li class="liJogos"><h1 class="tituloJogos">Rainbow Six Siege</h1>
-        <span class="spanJogos">
-        <img class="imgJogos" src="https://store.substance3d.com/sites/default/files/R6S_Screenshot_shield.jpg" alt="">
-        <div class="textoJogos"> <h3 class="r6">Rainbow Six Siege é um jogo de tiro na primeira pessoa táctico, em que os jogadores assumem o papel de um dos membros da equipe Rainbow, uma unidade contra-terrorista. Os membros têm diferentes nacionalidades, habilidades e equipamentos.</h3> </div>
-    </span></li>
+        <div class="spanJogos">
+        <img class="imgJogos" src="/imagens/rainbow_six.jpg" alt="">
+        <div class="textoJogos"> <p class="r6">Rainbow Six Siege é um jogo de tiro na primeira pessoa táctico, em que os jogadores assumem o papel de um dos membros da equipe Rainbow, uma unidade contra-terrorista. Os membros têm diferentes nacionalidades, habilidades e equipamentos.</p> </div>
+        </div></li></div>  
 
+        <div class="containerJogos">
+        <li class="liJogos"><h1 class="tituloJogos">GTA V</h1>
+        <div class="spanJogos">
+        <img class="imgJogos" src="/imagens/gta_5.jpg" alt="">
+        <div class="textoJogos"><p class="r6">GTA V é um jogo de mundo aberto que permite o jogador fazer milhares de coisas diferentes, desde apenas dirigir pelo mapa até se transformar em um passáro. O modo Online proporciona basicamente uma segunda vida, onde você pode fazer amigos, trabalhar, roubar e tudo que sua imaginação permitir</p><div>
+    </span></li> </div>  
 
-
-        <li class="liJogos"><h1 class="tituloJogos">GTA 5</h1>
-        <span class="spanJogos">
-        <img class="imgJogos" src="https://www.igta5.com/images/official-artwork-blitz-play.jpg" alt="">
-        <div class="textoJogos"><h3 class="r6">GTA V é um jogo de mundo aberto que permite o jogador fazer milhares de coisas diferentes, desde apenas dirigir pelo mapa até se transformar em um passáro. O modo Online proporciona basicamente uma segunda vida, onde você pode fazer amigos, trabalhar, roubar e tudo que sua imaginação permitir</h3><div>
-    </span></li>
-
+        <div class="containerJogos">
         <li class="liJogos"><h1 class="tituloJogos">Rocket League</h1>
         <span class="spanJogos">
-        <img class="imgJogos" src="https://d23gn3985hkc32.cloudfront.net/wp-content/uploads/2020/12/342362-rocketleague.jpg" alt="">
-        <div class="textoJogos"> <h3 class="r6">Rocket League é um jogo de futebol, mas com carros movidos a foguete. Tem de um a quatro jogadores designados para cada uma das duas equipes, usando veículos movidos a foguete para acertar o gol do adversário e marcar pontos ao longo de uma partida.</h3> </div>
-    </span> </li>
+        <img class="imgJogos" src="/imagens/rocket_league.jpg" alt="">
+        <div class="textoJogos"> <p class="r6">Rocket League é um jogo de futebol, mas com carros movidos a foguete. Tem de um a quatro jogadores designados para cada uma das duas equipes, usando veículos movidos a foguete para acertar o gol do adversário e marcar pontos ao longo de uma partida.</p> </div>
+       </span> </div> </li>  
     </ul>
-    </div>
-    </main>     
+        </div>
+
+</div>    
+</body>
+</main>     
    
-
-
     <footer>
         <div class="redesSociais"><h1 class="98212">Entre em contato comigo</h1></div>
         <a class="imgRede" href="https://www.instagram.com/whoisgreaf/">
-        <img src="https://cdn-icons-png.flaticon.com/512/87/87390.png" alt="Instagram"
+        <img src="/imagens/instagram.png" alt="Instagram"
         title="Instagram" 
         width="50px"></a> 
         <a class="imgRede" href="https://github.com/gusssouza">
-        <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub"
+        <img src="/imagens/github.png" alt="GitHub"
         title="GitHub"
         width="50px"></a>
         </a> <a class="imgRede" href="https://www.facebook.com/profile.php?id=100004181680624">
-        <img src="https://cdn-icons-png.flaticon.com/512/20/20673.png" alt="Facebook"
+        <img src="/imagens/facebook.png" alt="Facebook"
         title="Facebook"
         width="50px"></a>
+        <a class="imgRede" href="mailto:gusssouza23@gmail.com">
+        <img src="/imagens/gmail.png" alt="Gmail"
+        title="Gmail"
+        width="200px"
+        height="45px"></a>
+        
     </footer>
 
-
+    <script>
+        let contato = document.getElementById("contato")
+        contato.addEventListener("click", function() {
+        window.scrollBy(0, 4000)
+    })
+    </script>
 
 </body>
 </html>

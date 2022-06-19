@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Sobre Mim</title>
     <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
@@ -14,38 +14,63 @@
         <li class="lista"><a class="navA" href="sobreMim.html">Sobre Mim</a></li>
         <li class="lista"><a class="navA" href="index.html">Projetos</a></li>
         <li class="lista"><a class="navA" href="hobbies.html">Hobbies</a></li>
+        <li class="lista" ><a class="navA" id="contato" onclick="teste()">Contato</a></li>
     </ul> 
     </div>
     
     
       <div class="container">
       <header class="perfil">
-      <img class="fotoPerfil" src="https://xesque.rocketseat.dev/users/avatar/profile-8c11fe24-db29-452b-8ee8-436ec8c1def0-1644887005265.jpg"/>
+      <img class="fotoPerfil" src="/imagens/perfil.png"/>
     <div class="titulo">
       <h1>Gustavo da Silva de Souza</h1>
-      <h3>Estudante de HTML, CSS e C#</h3>
+      <h3>Estudante de HTML, CSS, JavaScript e C#</h3>
       <h3>#Senac #Entra21</h3>
+    </div>
+    </header>
+
+    <div class="breveTexto">
+      
+      <p>Olá, me chamo Gustavo, tenho 20 anos, sou natural de Joinville e atualmente estou estudando programação.</p>
+      <p>Desde sempre eu fui uma pessoa caseira que basicamente joga videogame durante todo o tempo livre, mas programação
+         nunca tinha sido algo que me chamava atenção, eu sempre olhei para os códigos de programas/sites com receio, porém isso mudou 
+         após conversas com meu tio, que é programador, com ele entendi melhor como era esse mundo de fato, isso atiçou minha curiosidade. </p>
+      <p>Estudei lógica e algumas linguagans de programação por conta própria durante alguns meses até conhecer o programa Entra21, onde me 
+         escrevi e fui selecionado, por conta disso no momento faço curso de C# no Senac Joinville.</p>
+
+      </div>
 
     </div>
-    </div>
-      </header>
 
       <footer>
         <div class="redesSociais"><h1 class="98212">Entre em contato comigo</h1></div>
         <a class="imgRede" href="https://www.instagram.com/whoisgreaf/">
-        <img src="https://cdn-icons-png.flaticon.com/512/87/87390.png" alt="Instagram"
+        <img src="/imagens/instagram.png" alt="Instagram"
         title="Instagram" 
         width="50px"></a> 
         <a class="imgRede" href="https://github.com/gusssouza">
-        <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub"
+        <img src="/imagens/github.png" alt="GitHub"
         title="GitHub"
         width="50px"></a>
         </a> <a class="imgRede" href="https://www.facebook.com/profile.php?id=100004181680624">
-        <img src="https://cdn-icons-png.flaticon.com/512/20/20673.png" alt="Facebook"
+        <img src="/imagens/facebook.png" alt="Facebook"
         title="Facebook"
         width="50px"></a>
-    
+        <a class="imgRede" href="mailto:gusssouza23@gmail.com">
+        <img src="/imagens/gmail.png" alt="Gmail"
+        title="Gmail"
+        width="200px"
+        height="45px"></a>
+        
     </footer>
 </body>
+
+
+<script>
+  let contato = document.getElementById("contato")
+  contato.addEventListener("click", function() {
+  window.scrollBy(0, 4000)
+})
+</script>
 
 </html>
